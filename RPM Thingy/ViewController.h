@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) UIImageView *needleImage;
+@property (strong, nonatomic) NSTimer *timer;
+@property (strong, nonatomic) IBOutlet UILabel *MPH;
+
+-(void) deincrementNeedle;
 
 @end
 

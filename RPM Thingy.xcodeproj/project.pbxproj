@@ -14,6 +14,8 @@
 		B6A87D721ABB46B70006878E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A87D711ABB46B70006878E /* Images.xcassets */; };
 		B6A87D751ABB46B70006878E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A87D731ABB46B70006878E /* LaunchScreen.xib */; };
 		B6A87D811ABB46B70006878E /* RPM_ThingyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A87D801ABB46B70006878E /* RPM_ThingyTests.m */; };
+		B6A87D8B1ABB484C0006878E /* Speedometer.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A87D8A1ABB484C0006878E /* Speedometer.png */; };
+		B6A87D8D1ABB48740006878E /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A87D8C1ABB48740006878E /* needle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		B6A87D7A1ABB46B70006878E /* RPM ThingyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RPM ThingyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A87D7F1ABB46B70006878E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6A87D801ABB46B70006878E /* RPM_ThingyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPM_ThingyTests.m; sourceTree = "<group>"; };
+		B6A87D8A1ABB484C0006878E /* Speedometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Speedometer.png; sourceTree = "<group>"; };
+		B6A87D8C1ABB48740006878E /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				B6A87D6B1ABB46B70006878E /* ViewController.h */,
 				B6A87D6C1ABB46B70006878E /* ViewController.m */,
 				B6A87D6E1ABB46B70006878E /* Main.storyboard */,
+				B6A87D8C1ABB48740006878E /* needle.png */,
+				B6A87D8A1ABB484C0006878E /* Speedometer.png */,
 				B6A87D711ABB46B70006878E /* Images.xcassets */,
 				B6A87D731ABB46B70006878E /* LaunchScreen.xib */,
 				B6A87D641ABB46B70006878E /* Supporting Files */,
@@ -200,8 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6A87D701ABB46B70006878E /* Main.storyboard in Resources */,
+				B6A87D8D1ABB48740006878E /* needle.png in Resources */,
 				B6A87D751ABB46B70006878E /* LaunchScreen.xib in Resources */,
 				B6A87D721ABB46B70006878E /* Images.xcassets in Resources */,
+				B6A87D8B1ABB484C0006878E /* Speedometer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
